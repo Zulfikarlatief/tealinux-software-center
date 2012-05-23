@@ -1,0 +1,73 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# Copyright (C) 2011 Deepin, Inc.
+#               2011 Wang Yong
+#		2012 Reza Faiz A
+#
+# Author:     Wang Yong <lazycat.manatee@gmail.com>
+# Maintainer: Wang Yong <lazycat.manatee@gmail.com>
+#             Reza Faiz A <ylpmiskrad@gmail.com>
+# Remixed   : Reza Faiz A <ylpmiskrad@gmail.com>
+# 
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+from lang import __, getDefaultLanguage
+from constant import *
+import socket
+import subprocess
+
+def startCommandProxy():
+    '''Start command proxy.'''
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  
+    s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) # make sure socket port always work
+    
+    try:
+        # Software center is not running if address is not bind.
+        s.bind(SOCKET_COMMANDPROXY_ADDRESS)
+        
+        # Close socket.
+        s.close()
+        
+        # Show software center.
+        subprocess.Popen(["./commandProxy.py"])        
+    except Exception, e:
+        print "Command proxy has running."
+        
+        # Close socket.
+        s.close()  
+        
+def startSoftwareCenter():
+    '''Start software center.'''
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  
+    
+    try:
+        # Software center is not running if address is not bind.
+        s.bind(SOCKET_SOFTWARECENTER_ADDRESS)
+        
+        # Close socket.
+        s.close()
+        
+        # Show software center.
+        subprocess.Popen(["gksu", "./tealinux-software-center.py", "--message=" + __("gksu message")])        
+    except Exception, e:
+        # Just need send show request if software center has running.
+        s.sendto("show", SOCKET_SOFTWARECENTER_ADDRESS)  
+        
+        # Close socket.
+        s.close()  
+    
+if __name__ == "__main__":
+    startCommandProxy()
+    startSoftwareCenter()

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Tealinux Software Center
+Comment=A general Linux software manager
+Exec=tealinux-software-center
+Icon=/usr/share/tealinux-software-center/icon/icon.ico
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;System;Settings
+StartupNotify=false
