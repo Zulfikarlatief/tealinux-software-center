@@ -1,0 +1,12 @@
+Package: tealinux-software-center
+Version: 2.1.2-0tealinux1
+Architecture: all
+Maintainer: Reza Faiz A <ylpmiskrad@gmail.com>
+Installed-Size: 40864
+Depends: aria2, python, python-webkit, python-apt, apt-xapian-index, python-pkg-resources, gksu
+Section: admin
+Priority: optional
+Homepage: http://tealinuxos.org
+Description: Tealinux Software center
+ Is a software center who designed simplify to get a lot of or some application on TeaLinuxOS and can be use
+ in all debian distros.

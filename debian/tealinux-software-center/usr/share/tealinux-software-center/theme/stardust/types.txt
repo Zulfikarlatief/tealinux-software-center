@@ -1,0 +1,3 @@
+{"navigatebar" : ("left", "#0A0D10"),
+ "statusbar" : ("left", "#0A0D10"),
+}

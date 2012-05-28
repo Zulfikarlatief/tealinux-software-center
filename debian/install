@@ -1,0 +1,13 @@
+debian/uuid /var/lib/tealinux-software-center/
+
+icon /usr/share/tealinux-software-center
+locale /usr/share/tealinux-software-center
+pkgData /usr/share/tealinux-software-center
+src /usr/share/tealinux-software-center
+theme /usr/share/tealinux-software-center
+tools /usr/share/tealinux-software-center
+updateData /usr/share/tealinux-software-center
+AUTHORS /usr/share/tealinux-software-center
+ChangeLog /usr/share/tealinux-software-center
+COPYING /usr/share/tealinux-software-center
+README /usr/share/tealinux-software-center

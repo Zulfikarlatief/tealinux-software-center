@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Tealinux System Updater
+Comment=A general Linux software manager
+Exec=tealinux-check-update
+Icon=/usr/share/tealinux-software-center/icon/icon.ico
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Encoding=UTF-8
+Categories=Application;System;Settings
+StartupNotify=false

@@ -1,0 +1,6 @@
+#! /bin/sh
+set -e
+if [ "$1" = rtupdate ]; then
+	pyclean -p tealinux-software-center /usr/share/tealinux-software-center
+	pycompile -p tealinux-software-center  /usr/share/tealinux-software-center
+fi

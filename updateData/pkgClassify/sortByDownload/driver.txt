@@ -1,0 +1,5 @@
+jockey-kde
+nvidia-current
+ndisgtk
+ntfs-config
+jockey-gtk

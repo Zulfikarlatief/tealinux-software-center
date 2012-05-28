@@ -1,0 +1,1 @@
+[("eclipse", "Eclipse"), ("gambas2", "Gambas"), ("geany", "Geany")]

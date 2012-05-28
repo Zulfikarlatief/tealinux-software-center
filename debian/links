@@ -1,0 +1,5 @@
+/usr/share/tealinux-software-center/src/tealinux-software-center /usr/bin/tealinux-software-center
+/usr/share/tealinux-software-center/src/tealinux-check-update /usr/bin/tealinux-check-update
+/usr/share/tealinux-software-center/src/tealinux-software-center.desktop /usr/share/applications/tealinux-software-center.desktop
+/usr/share/tealinux-software-center/src/tealinux-check-update.desktop /usr/share/gnome/autostart/tealinux-check-update.desktop
+/usr/share/tealinux-software-center/src/tealinux-software-center.desktop ~/Desktop/tealinux-software-center.desktop

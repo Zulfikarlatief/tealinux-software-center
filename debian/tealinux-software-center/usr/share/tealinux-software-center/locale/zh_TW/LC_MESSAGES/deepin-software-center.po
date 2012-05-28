@@ -1,0 +1,457 @@
+# Deepin software center.
+# Copyright (C) 2011 Deepin, Inc.
+# Yong Wang <lazycat.manatee@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deepin-software-center\n"
+"POT-Creation-Date: 2011-11-20 20:48+CST\n"
+"PO-Revision-Date: 2011-12-28 18:16+0800\n"
+"Last-Translator: 吳承鴻 <h2731652@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+
+msgid "Action Install"
+msgstr "安裝"
+
+msgid "Action Uninstall"
+msgstr "移除"
+
+msgid "Action Update"
+msgstr "升級"
+
+msgid "Action Wait Download"
+msgstr "等待下載"
+
+msgid "Action Wait Install"
+msgstr "等待安裝"
+
+msgid "Action Wait Update"
+msgstr "等待升級"
+
+msgid "Action Wait Uninstall"
+msgstr "等待移除"
+
+msgid "Action Startup"
+msgstr "啟動"
+
+msgid "Action Installed"
+msgstr "已安裝"
+
+msgid "Action Install Start"
+msgstr "開始安裝"
+
+msgid "Action Update Start"
+msgstr "開始升級"
+
+msgid "Action Uninstall Start"
+msgstr "開始移除"
+
+msgid "Action Install Failed"
+msgstr "安裝失敗"
+
+msgid "Action Update Failed"
+msgstr "升級失敗"
+
+msgid "Action Uninstall Failed"
+msgstr "移除失敗"
+
+msgid "Action Install Finish"
+msgstr "安裝完畢"
+
+msgid "Action Update Finish"
+msgstr "升級完畢"
+
+msgid "Action Uninstall Finish"
+msgstr "移除完畢"
+
+msgid "Action Cancel"
+msgstr "取消"
+
+msgid "Action Pause"
+msgstr "暫停"
+
+msgid "Action Installing"
+msgstr "安裝中"
+
+msgid "Action Updating"
+msgstr "升級中"
+
+msgid "Action Uninstalling"
+msgstr "移除中"
+
+msgid "Nav Recommend"
+msgstr "精彩首頁"
+
+msgid "Nav Repository"
+msgstr "軟體倉庫"
+
+msgid "Nav Update"
+msgstr "軟體更新"
+
+msgid "Nav Uninstall"
+msgstr "移除軟體"
+
+msgid "Nav Download Manage"
+msgstr "下載管理"
+
+msgid "Click Show Detail"
+msgstr "點擊查看詳細信息"
+
+msgid "Click Start Vote"
+msgstr "點擊開始評分"
+
+msgid "Click Finish Vote"
+msgstr "點擊完成評分"
+
+msgid "Click Zoom In"
+msgstr "點擊放大"
+
+msgid "Comment"
+msgstr "  (評論: %s)"
+
+msgid "First Comment"
+msgstr "搶頭香!"
+
+msgid "Jump To"
+msgstr "跳到第"
+
+msgid "Page"
+msgstr "頁"
+
+msgid "Jump"
+msgstr "跳轉"
+
+msgid "Current Version"
+msgstr "當前版本"
+
+msgid "Upgrade Version"
+msgstr "升級版本"
+
+msgid "Are you sure uninstall?"
+msgstr "您確定要移除嗎？"
+
+msgid "There are %s software packages can be upgraded"
+msgstr "有%s個軟體包可以升級"
+
+msgid "gksu message"
+msgstr "請輸入管理員密碼以啟用深度軟體中心"
+
+msgid "About"
+msgstr "關於"
+
+msgid "Exit"
+msgstr "退出"
+
+msgid "Deepin Update Manager"
+msgstr "深度更新管理器"
+
+msgid "Classify News"
+msgstr "最近更新"
+
+msgid "Classify Recommend"
+msgstr "編輯推薦"
+
+msgid "Classify Web"
+msgstr "網際網絡"
+
+msgid "Classify Multimedia"
+msgstr "影音播放"
+
+msgid "Classify Game"
+msgstr "遊戲娛樂"
+
+msgid "Classify Graphics"
+msgstr "圖形圖像"
+
+msgid "Classify Word"
+msgstr "文書處理"
+
+msgid "Classify Professional"
+msgstr "專業工具"
+
+msgid "Classify Programming"
+msgstr "編程開發"
+
+msgid "Classify Driver"
+msgstr "硬體驅動"
+
+msgid "Classify Windows"
+msgstr "Win 軟體"
+
+msgid "Classify Others"
+msgstr "其他軟體"
+
+msgid "Deepin Software Center"
+msgstr "深度軟體中心"
+
+msgid " Loading, please wait ..."
+msgstr " 載入中， 請稍候 ..."
+
+msgid "Send request to start %s"
+msgstr "向 %s 發送啟動請求"
+
+msgid "Congratulations, your system is clean."
+msgstr "恭喜您， 您的系統非常乾淨."
+
+msgid "Software Center is using the downloaded package, please wait clearing."
+msgstr "軟體中心正在使用下載的軟體包，請稍候清理。"
+
+msgid "Cleaned up %s package, release %s space."
+msgstr "清理了%s個軟體包， 釋放了%s空間."
+
+msgid "To ensure fairness, only a day to %s score once."
+msgstr "為確保公正, 每天只能對 %s 評分一次."
+
+msgid "%s vote success, thanks!"
+msgstr "%s 評分成功, 感謝參與!"
+
+msgid "%s vote failed, please check your network link."
+msgstr "%s 評分失敗, 請檢查您的網路連接."
+
+msgid "Return"
+msgstr "返回"
+
+msgid "Long Description"
+msgstr "詳細介紹"
+
+msgid "Homepage"
+msgstr "訪問首頁"
+
+msgid "Translate description"
+msgstr "協助翻譯"
+
+msgid "Screenshot"
+msgstr "軟體截圖"
+
+msgid "Version: "
+msgstr "版本: "
+
+msgid "Uninstall to release %s space"
+msgstr "移除後釋放%s空間"
+
+msgid "Download to eat %s space"
+msgstr "%s 需要下載%s"
+
+msgid "Query screenshot ..."
+msgstr "查詢截圖..."
+
+msgid "Downloading screenshot ..."
+msgstr "正在下載截圖..."
+
+msgid "Query fails, check your network and click refresh and try again."
+msgstr "查詢失敗, 點擊重新整理後重試"
+
+msgid "Download fails, check your network and click refresh and try again."
+msgstr "下載失敗, 點擊重新整理後重試"
+
+msgid "The software does not screenshot"
+msgstr "這個軟體不需要截圖"
+
+msgid "Upload screenshot"
+msgstr "上傳截圖"
+
+msgid "% s: Download failed, please check your network link."
+msgstr "%s: 下載失敗, 請檢查您的網路連接"
+
+msgid "Query failed, use screenshot cache."
+msgstr "查詢失敗， 使用截圖暫存"
+
+msgid "Download failed, use screenshot cache."
+msgstr "下載失敗， 使用截圖暫存"
+
+msgid "Download Failed"
+msgstr "下載失敗"
+
+msgid "Download Finish"
+msgstr "下載完畢"
+
+msgid "Start Download"
+msgstr "開始下載"
+
+msgid "% s: Download timeout, please check your network link."
+msgstr "%s: 下載逾時, 請檢查您的網路連接"
+
+msgid "Download Timeout"
+msgstr "下載逾時"
+
+msgid "Download Pause"
+msgstr "下載暫停"
+
+msgid "%s checkout failed."
+msgstr "%s: 校正失敗"
+
+msgid "Open download directory"
+msgstr "打開下載目錄"
+
+msgid "Clean download cache"
+msgstr "智慧清理下載暫存"
+
+msgid "Clean download cache, save your disk space!"
+msgstr "清理下載暫存， 節省您的硬碟空間！"
+
+msgid "Select All"
+msgstr "全選"
+
+msgid "Unselect All"
+msgstr "取消全選"
+
+msgid "Update select software"
+msgstr "升級選中的軟體"
+
+msgid "Notify select software"
+msgstr "提醒提示選中的軟體"
+
+msgid "Notify again"
+msgstr "重新提醒"
+
+msgid "Don't Notify"
+msgstr "不再提醒"
+
+msgid "New Feature"
+msgstr "新功能"
+
+msgid "Proxy Setup"
+msgstr "代理設置"
+
+msgid "Forum Help"
+msgstr "論壇求助"
+
+msgid "Join Us"
+msgstr "加入我們"
+
+msgid "Report Problem"
+msgstr "問題反饋"
+
+msgid "Software Center 2.0 New Feature"
+msgstr "軟體中心2.0新功能"
+
+msgid "Setup"
+msgstr "設定"
+
+msgid "Cancel proxy!"
+msgstr "取消代理成功！"
+
+msgid "Setup proxy!"
+msgstr "代理設置成功!"
+
+msgid "Pause"
+msgstr "暫停"
+
+msgid "More >>"
+msgstr "更多 >>"
+
+msgid "Sort By Recommend"
+msgstr "按推薦排序"
+
+msgid "Sort By Download"
+msgstr "按下載排序"
+
+msgid "Sort By Vote"
+msgstr "按評分排序"
+
+msgid "Please enter the name you want to search for software, version or other information"
+msgstr "請輸入您要搜尋的軟體名稱、版本或其他信息"
+
+msgid "Please enter the name you want to uninstall the software, version or other information"
+msgstr "請輸入您要移除的軟體名稱、版本或其他信息"
+
+msgid "Files are indexed for the search ..."
+msgstr "正在為搜尋建立索引目錄..."
+
+msgid "Build the search index file is completed."
+msgstr "搜尋索引目錄建立完畢."
+
+msgid "Indexing, search capabilities please try again later."
+msgstr "正在建立索引， 請稍候再試搜尋功能."
+
+msgid "No search packages related %s"
+msgstr "没有搜索到和 %s 相關的包"
+
+msgid "Global Search"
+msgstr "全文搜尋"
+
+msgid "Change Theme"
+msgstr "更換主題"
+
+msgid "Updating souces list ..."
+msgstr "正在更新軟體列表 ..."
+
+msgid "Update sources list completed."
+msgstr "更新軟體列表完畢。"
+
+msgid "News\n"
+msgstr ""
+"* 解決更新管理器衝突導致軟體中心安裝失敗的問題。\n"
+"* 添加‘下載管理’頁面。\n"
+"* 添加‘智慧清理下載暫存’的功能。\n"
+"* 可以選擇不更新指定的軟體。\n"
+"* 更快的推薦更新。\n"
+"* 社群評論功能。\n"
+"* 安裝後直接在軟體中心啟動。\n"
+"* 支援多個軟體並行下載。\n"
+"* 支援動態主題功能。\n"
+"* 支援英文和繁體中文。\n"
+"* 最佳化內存占用。\n"
+"* 最佳化搜尋體驗。\n"
+"* 最佳化界面交互體驗細節。\n"
+"* 最佳化啟動速度。\n"
+"* 支援Ubuntu系統。\n"
+
+msgid "Topbar UpdatePage"
+msgstr "<span size='%s'>有 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 款軟體可以升級</span>"
+
+msgid "Topbar DownloadManagePage"
+msgstr "<span size='%s'>有 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 款軟體正在下載</span>"
+
+msgid "Topbar SearchPage"
+msgstr "<span size='%s'>搜尋到和 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 相關的軟體共 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 款</span>"
+
+msgid "Topbar SearchUninstallPage"
+msgstr "<span size='%s'>搜尋到和 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 相關的軟體共 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 款</span>"
+
+msgid "Topbar UninstallPage"
+msgstr "<span size='%s'>有 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 款軟體可以卸載</span>"
+
+msgid "Topbar IgnorePage"
+msgstr "<span size='%s'>有 </span><span foreground='%s' size='%s'>%s</span><span size='%s'> 款軟體不再提醒升級</span>"
+
+msgid "No Notify UpdatePage"
+msgstr "(有%s款軟體不再提醒升級)"
+
+msgid "Your system is up to date."
+msgstr "您的系統已經是最新的."
+
+msgid "No Downloads."
+msgstr "無下載任務."
+
+msgid "No software needs to remind."
+msgstr "沒有軟體需要提醒."
+
+msgid "Proxy Address"
+msgstr "位址: "
+
+msgid "Proxy Port"
+msgstr "端口: "
+
+msgid "Proxy User"
+msgstr "使用者名稱: "
+
+msgid "Proxy Password"
+msgstr "密碼: "
+
+msgid "Proxy OK"
+msgstr "設置代理"
+
+msgid "Proxy Cancel"
+msgstr "取消代理"
+
+msgid "Comment load failed, please try again!"
+msgstr "評論載入失敗， 請重新整理後重試!"
+
+msgid "Vote num"
+msgstr "  (已經有%s人評分)"
+
